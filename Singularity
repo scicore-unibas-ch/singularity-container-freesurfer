@@ -9,6 +9,7 @@ From: centos:7
     # install the dependencies
     yum -y install epel-release
     yum install -y \
+    bc \
     git \
     wget \
     tcsh \
